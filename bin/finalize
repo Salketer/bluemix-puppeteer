@@ -7,3 +7,5 @@ DEPS_DIR=$3
 DEPS_IDX=$4
 
 ls -ali $BUILD_DIR
+locate chrome_sandbox
+ls -ali `locate chrome_sandbox`

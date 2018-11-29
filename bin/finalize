@@ -11,4 +11,3 @@ output_dir=$(mktemp -d -t supplyXXX)
 
 echo "-----> Running test buildpack"
 
-$output_dir/supply "$BUILD_DIR" "$CACHE_DIR" "$DEPS_DIR" "$DEPS_IDX"
